@@ -12,6 +12,7 @@
 
 using std::vector;
 
+// 循环不变量
 // 左闭右闭区间
 class Solution1 {
 public:
