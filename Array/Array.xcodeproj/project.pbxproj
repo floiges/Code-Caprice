@@ -19,6 +19,7 @@
 		BDF676BD2B85A65E00A75787 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF676BC2B85A65E00A75787 /* main.cpp */; };
 		BDF676C82B85EF9B00A75787 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF676C72B85EF9B00A75787 /* main.cpp */; };
 		BDF676D32B8DCE7B00A75787 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF676D22B8DCE7B00A75787 /* main.cpp */; };
+		BDF676DE2B905D1300A75787 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF676DD2B905D1300A75787 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -139,6 +140,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		BDF676D92B905D1300A75787 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -167,6 +177,8 @@
 		BDF676C72B85EF9B00A75787 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BDF676D02B8DCE7B00A75787 /* 904 Total Fruit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "904 Total Fruit"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF676D22B8DCE7B00A75787 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BDF676DB2B905D1300A75787 /* 76 Min Window */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "76 Min Window"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF676DD2B905D1300A75787 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +273,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDF676D82B905D1300A75787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -279,6 +298,7 @@
 				BDF676BB2B85A65E00A75787 /* 977 Sorted Squares */,
 				BDF676C62B85EF9B00A75787 /* 209 Min Sub Array Len */,
 				BDF676D12B8DCE7B00A75787 /* 904 Total Fruit */,
+				BDF676DC2B905D1300A75787 /* 76 Min Window */,
 				BDA0D47B2B68EA49002F7D71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -299,6 +319,7 @@
 				BDF676BA2B85A65E00A75787 /* 977 Sorted Squares */,
 				BDF676C52B85EF9B00A75787 /* 209 Min Sub Array Len */,
 				BDF676D02B8DCE7B00A75787 /* 904 Total Fruit */,
+				BDF676DB2B905D1300A75787 /* 76 Min Window */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -397,6 +418,14 @@
 				BDF676D22B8DCE7B00A75787 /* main.cpp */,
 			);
 			path = "904 Total Fruit";
+			sourceTree = "<group>";
+		};
+		BDF676DC2B905D1300A75787 /* 76 Min Window */ = {
+			isa = PBXGroup;
+			children = (
+				BDF676DD2B905D1300A75787 /* main.cpp */,
+			);
+			path = "76 Min Window";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -623,6 +652,23 @@
 			productReference = BDF676D02B8DCE7B00A75787 /* 904 Total Fruit */;
 			productType = "com.apple.product-type.tool";
 		};
+		BDF676DA2B905D1300A75787 /* 76 Min Window */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF676DF2B905D1300A75787 /* Build configuration list for PBXNativeTarget "76 Min Window" */;
+			buildPhases = (
+				BDF676D72B905D1300A75787 /* Sources */,
+				BDF676D82B905D1300A75787 /* Frameworks */,
+				BDF676D92B905D1300A75787 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "76 Min Window";
+			productName = "76 Min Window";
+			productReference = BDF676DB2B905D1300A75787 /* 76 Min Window */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -671,6 +717,9 @@
 					BDF676CF2B8DCE7B00A75787 = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BDF676DA2B905D1300A75787 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 				};
 			};
 			buildConfigurationList = BDA0D4752B68EA49002F7D71 /* Build configuration list for PBXProject "Array" */;
@@ -699,6 +748,7 @@
 				BDF676B92B85A65E00A75787 /* 977 Sorted Squares */,
 				BDF676C42B85EF9B00A75787 /* 209 Min Sub Array Len */,
 				BDF676CF2B8DCE7B00A75787 /* 904 Total Fruit */,
+				BDF676DA2B905D1300A75787 /* 76 Min Window */,
 			);
 		};
 /* End PBXProject section */
@@ -804,6 +854,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF676D32B8DCE7B00A75787 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF676D72B905D1300A75787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF676DE2B905D1300A75787 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1133,6 +1191,22 @@
 			};
 			name = Release;
 		};
+		BDF676E02B905D1300A75787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDF676E12B905D1300A75787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1258,6 +1332,15 @@
 			buildConfigurations = (
 				BDF676D52B8DCE7B00A75787 /* Debug */,
 				BDF676D62B8DCE7B00A75787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF676DF2B905D1300A75787 /* Build configuration list for PBXNativeTarget "76 Min Window" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF676E02B905D1300A75787 /* Debug */,
+				BDF676E12B905D1300A75787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
