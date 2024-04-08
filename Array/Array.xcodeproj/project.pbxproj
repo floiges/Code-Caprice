@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD606DFB2BA826E900D6974A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD606DFA2BA826E900D6974A /* main.cpp */; };
+		BD606E062BAC363600D6974A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD606E052BAC363600D6974A /* main.cpp */; };
 		BDA0D48B2B68EC02002F7D71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA0D48A2B68EC02002F7D71 /* main.cpp */; };
 		BDA0D4962B68F707002F7D71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA0D4952B68F707002F7D71 /* main.cpp */; };
 		BDA0D4A12B6A4D99002F7D71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA0D4A02B6A4D99002F7D71 /* main.cpp */; };
@@ -25,6 +26,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		BD606DF62BA826E900D6974A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BD606E012BAC363500D6974A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -162,8 +172,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BD606DF82BA826E900D6974A /* 59 GenerateMatrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "59 GenerateMatrix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD606DF82BA826E900D6974A /* 59 Generate Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "59 Generate Matrix"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD606DFA2BA826E900D6974A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BD606E032BAC363600D6974A /* 54 Spiral Order */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "54 Spiral Order"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD606E052BAC363600D6974A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BDA0D47A2B68EA49002F7D71 /* Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Array; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA0D4882B68EC02002F7D71 /* Binary Search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary Search"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA0D48A2B68EC02002F7D71 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -195,6 +207,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		BD606DF52BA826E900D6974A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD606E002BAC363500D6974A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,12 +321,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BD606DF92BA826E900D6974A /* 59 GenerateMatrix */ = {
+		BD606DF92BA826E900D6974A /* 59 Generate Matrix */ = {
 			isa = PBXGroup;
 			children = (
 				BD606DFA2BA826E900D6974A /* main.cpp */,
 			);
-			path = "59 GenerateMatrix";
+			path = "59 Generate Matrix";
+			sourceTree = "<group>";
+		};
+		BD606E042BAC363600D6974A /* 54 Spiral Order */ = {
+			isa = PBXGroup;
+			children = (
+				BD606E052BAC363600D6974A /* main.cpp */,
+			);
+			path = "54 Spiral Order";
 			sourceTree = "<group>";
 		};
 		BDA0D4712B68EA49002F7D71 = {
@@ -326,7 +353,8 @@
 				BDF676C62B85EF9B00A75787 /* 209 Min Sub Array Len */,
 				BDF676D12B8DCE7B00A75787 /* 904 Total Fruit */,
 				BDF676DC2B905D1300A75787 /* 76 Min Window */,
-				BD606DF92BA826E900D6974A /* 59 GenerateMatrix */,
+				BD606DF92BA826E900D6974A /* 59 Generate Matrix */,
+				BD606E042BAC363600D6974A /* 54 Spiral Order */,
 				BDA0D47B2B68EA49002F7D71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -348,7 +376,8 @@
 				BDF676C52B85EF9B00A75787 /* 209 Min Sub Array Len */,
 				BDF676D02B8DCE7B00A75787 /* 904 Total Fruit */,
 				BDF676DB2B905D1300A75787 /* 76 Min Window */,
-				BD606DF82BA826E900D6974A /* 59 GenerateMatrix */,
+				BD606DF82BA826E900D6974A /* 59 Generate Matrix */,
+				BD606E032BAC363600D6974A /* 54 Spiral Order */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -460,9 +489,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD606DF72BA826E900D6974A /* 59 GenerateMatrix */ = {
+		BD606DF72BA826E900D6974A /* 59 Generate Matrix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD606DFE2BA826E900D6974A /* Build configuration list for PBXNativeTarget "59 GenerateMatrix" */;
+			buildConfigurationList = BD606DFE2BA826E900D6974A /* Build configuration list for PBXNativeTarget "59 Generate Matrix" */;
 			buildPhases = (
 				BD606DF42BA826E900D6974A /* Sources */,
 				BD606DF52BA826E900D6974A /* Frameworks */,
@@ -472,9 +501,26 @@
 			);
 			dependencies = (
 			);
-			name = "59 GenerateMatrix";
+			name = "59 Generate Matrix";
 			productName = "59 GenerateMatrix";
-			productReference = BD606DF82BA826E900D6974A /* 59 GenerateMatrix */;
+			productReference = BD606DF82BA826E900D6974A /* 59 Generate Matrix */;
+			productType = "com.apple.product-type.tool";
+		};
+		BD606E022BAC363500D6974A /* 54 Spiral Order */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD606E072BAC363600D6974A /* Build configuration list for PBXNativeTarget "54 Spiral Order" */;
+			buildPhases = (
+				BD606DFF2BAC363500D6974A /* Sources */,
+				BD606E002BAC363500D6974A /* Frameworks */,
+				BD606E012BAC363500D6974A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "54 Spiral Order";
+			productName = "54 Spiral Order";
+			productReference = BD606E032BAC363600D6974A /* 54 Spiral Order */;
 			productType = "com.apple.product-type.tool";
 		};
 		BDA0D4792B68EA49002F7D71 /* Array */ = {
@@ -727,6 +773,9 @@
 					BD606DF72BA826E900D6974A = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					BD606E022BAC363500D6974A = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					BDA0D4792B68EA49002F7D71 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -798,7 +847,8 @@
 				BDF676C42B85EF9B00A75787 /* 209 Min Sub Array Len */,
 				BDF676CF2B8DCE7B00A75787 /* 904 Total Fruit */,
 				BDF676DA2B905D1300A75787 /* 76 Min Window */,
-				BD606DF72BA826E900D6974A /* 59 GenerateMatrix */,
+				BD606DF72BA826E900D6974A /* 59 Generate Matrix */,
+				BD606E022BAC363500D6974A /* 54 Spiral Order */,
 			);
 		};
 /* End PBXProject section */
@@ -809,6 +859,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD606DFB2BA826E900D6974A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD606DFF2BAC363500D6974A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD606E062BAC363600D6974A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,6 +993,22 @@
 			name = Debug;
 		};
 		BD606DFD2BA826E900D6974A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD606E082BAC363600D6974A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD606E092BAC363600D6974A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1284,11 +1358,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD606DFE2BA826E900D6974A /* Build configuration list for PBXNativeTarget "59 GenerateMatrix" */ = {
+		BD606DFE2BA826E900D6974A /* Build configuration list for PBXNativeTarget "59 Generate Matrix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD606DFC2BA826E900D6974A /* Debug */,
 				BD606DFD2BA826E900D6974A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD606E072BAC363600D6974A /* Build configuration list for PBXNativeTarget "54 Spiral Order" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD606E082BAC363600D6974A /* Debug */,
+				BD606E092BAC363600D6974A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
