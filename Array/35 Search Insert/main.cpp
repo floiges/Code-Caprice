@@ -10,6 +10,7 @@
 // nums 数组无重复元素
 
 #include <iostream>
+#include <vector>
 
 using std::vector;
 

@@ -9,6 +9,7 @@
 // 重点：1、数组有序；2、nums 中的所有元素是不重复的
 
 #include <iostream>
+#include <vector>
 
 using std::vector;
 
