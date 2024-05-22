@@ -13,6 +13,7 @@
 		BD03AF7B2BFB362A00CAE7B2 /* ListNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD03AF7A2BFB362A00CAE7B2 /* ListNode.cpp */; };
 		BD03AF832BFC47CC00CAE7B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD03AF822BFC47CC00CAE7B2 /* main.cpp */; };
 		BD03AF902BFC4C1F00CAE7B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD03AF8F2BFC4C1F00CAE7B2 /* main.cpp */; };
+		BD03AF9D2BFDCC3200CAE7B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD03AF9C2BFDCC3200CAE7B2 /* main.cpp */; };
 		BDEC6BB32BF35ABE00A77124 /* LinkedNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDEC6BB02BF35ABE00A77124 /* LinkedNode.cpp */; };
 		BDEC6BBB2BF35B7500A77124 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDEC6BBA2BF35B7500A77124 /* main.cpp */; };
 		BDEC6BC22BF3652C00A77124 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDEC6BC12BF3652C00A77124 /* main.cpp */; };
@@ -41,6 +42,13 @@
 			remoteInfo = ListNode;
 		};
 		BD03AF942BFC4C2D00CAE7B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEC6B932BF35A4200A77124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD03AF702BFB35D400CAE7B2;
+			remoteInfo = ListNode;
+		};
+		BD03AFA12BFDCC6800CAE7B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BDEC6B932BF35A4200A77124 /* Project object */;
 			proxyType = 1;
@@ -102,6 +110,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		BD03AF982BFDCC3200CAE7B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		BDEC6BA72BF35A8800A77124 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,6 +151,8 @@
 		BD03AF822BFC47CC00CAE7B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BD03AF8D2BFC4C1F00CAE7B2 /* 19 Remove Nth From End */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19 Remove Nth From End"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD03AF8F2BFC4C1F00CAE7B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BD03AF9A2BFDCC3200CAE7B2 /* 0207 Get Intersection Node */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0207 Get Intersection Node"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD03AF9C2BFDCC3200CAE7B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BDEC6BA92BF35A8800A77124 /* LinkedNode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedNode; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEC6BB02BF35ABE00A77124 /* LinkedNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedNode.cpp; sourceTree = "<group>"; };
 		BDEC6BB12BF35ABE00A77124 /* LinkedNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedNode.hpp; sourceTree = "<group>"; };
@@ -172,6 +191,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BD03AF8A2BFC4C1F00CAE7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD03AF972BFDCC3200CAE7B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -236,6 +262,14 @@
 			path = "19 Remove Nth From End";
 			sourceTree = "<group>";
 		};
+		BD03AF9B2BFDCC3200CAE7B2 /* 0207 Get Intersection Node */ = {
+			isa = PBXGroup;
+			children = (
+				BD03AF9C2BFDCC3200CAE7B2 /* main.cpp */,
+			);
+			path = "0207 Get Intersection Node";
+			sourceTree = "<group>";
+		};
 		BDEC6B922BF35A4200A77124 = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +280,7 @@
 				BD03AF722BFB35D400CAE7B2 /* ListNode */,
 				BD03AF812BFC47CC00CAE7B2 /* 24 Swap Pairs */,
 				BD03AF8E2BFC4C1F00CAE7B2 /* 19 Remove Nth From End */,
+				BD03AF9B2BFDCC3200CAE7B2 /* 0207 Get Intersection Node */,
 				BDEC6B9C2BF35A4200A77124 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -260,6 +295,7 @@
 				BD03AF712BFB35D400CAE7B2 /* ListNode */,
 				BD03AF802BFC47CC00CAE7B2 /* 24 Swap Pairs */,
 				BD03AF8D2BFC4C1F00CAE7B2 /* 19 Remove Nth From End */,
+				BD03AF9A2BFDCC3200CAE7B2 /* 0207 Get Intersection Node */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -374,6 +410,24 @@
 			productReference = BD03AF8D2BFC4C1F00CAE7B2 /* 19 Remove Nth From End */;
 			productType = "com.apple.product-type.tool";
 		};
+		BD03AF992BFDCC3200CAE7B2 /* 0207 Get Intersection Node */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD03AF9E2BFDCC3200CAE7B2 /* Build configuration list for PBXNativeTarget "0207 Get Intersection Node" */;
+			buildPhases = (
+				BD03AF962BFDCC3200CAE7B2 /* Sources */,
+				BD03AF972BFDCC3200CAE7B2 /* Frameworks */,
+				BD03AF982BFDCC3200CAE7B2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD03AFA22BFDCC6800CAE7B2 /* PBXTargetDependency */,
+			);
+			name = "0207 Get Intersection Node";
+			productName = "0207 Get Intersection Node";
+			productReference = BD03AF9A2BFDCC3200CAE7B2 /* 0207 Get Intersection Node */;
+			productType = "com.apple.product-type.tool";
+		};
 		BDEC6BA82BF35A8800A77124 /* LinkedNode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDEC6BAD2BF35A8800A77124 /* Build configuration list for PBXNativeTarget "LinkedNode" */;
@@ -433,6 +487,9 @@
 					BD03AF8C2BFC4C1F00CAE7B2 = {
 						CreatedOnToolsVersion = 15.3;
 					};
+					BD03AF992BFDCC3200CAE7B2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					BDEC6BA82BF35A8800A77124 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -461,6 +518,7 @@
 				BD03AF702BFB35D400CAE7B2 /* ListNode */,
 				BD03AF7F2BFC47CC00CAE7B2 /* 24 Swap Pairs */,
 				BD03AF8C2BFC4C1F00CAE7B2 /* 19 Remove Nth From End */,
+				BD03AF992BFDCC3200CAE7B2 /* 0207 Get Intersection Node */,
 			);
 		};
 /* End PBXProject section */
@@ -507,6 +565,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD03AF962BFDCC3200CAE7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD03AF9D2BFDCC3200CAE7B2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDEC6BA52BF35A8800A77124 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,6 +612,11 @@
 			isa = PBXTargetDependency;
 			target = BD03AF702BFB35D400CAE7B2 /* ListNode */;
 			targetProxy = BD03AF942BFC4C2D00CAE7B2 /* PBXContainerItemProxy */;
+		};
+		BD03AFA22BFDCC6800CAE7B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD03AF702BFB35D400CAE7B2 /* ListNode */;
+			targetProxy = BD03AFA12BFDCC6800CAE7B2 /* PBXContainerItemProxy */;
 		};
 		BDEC6BC02BF35D8A00A77124 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -635,6 +706,24 @@
 			name = Debug;
 		};
 		BD03AF932BFC4C1F00CAE7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ListNode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD03AF9F2BFDCC3200CAE7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ListNode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD03AFA02BFDCC3200CAE7B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -842,6 +931,15 @@
 			buildConfigurations = (
 				BD03AF922BFC4C1F00CAE7B2 /* Debug */,
 				BD03AF932BFC4C1F00CAE7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD03AF9E2BFDCC3200CAE7B2 /* Build configuration list for PBXNativeTarget "0207 Get Intersection Node" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD03AF9F2BFDCC3200CAE7B2 /* Debug */,
+				BD03AFA02BFDCC3200CAE7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
