@@ -10,6 +10,7 @@
 /// 模拟类的题目在数组中很常见，不涉及到什么算法，就是单纯的模拟
 
 #include <iostream>
+#include <vector>
 
 using std::vector;
 
