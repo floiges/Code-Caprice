@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD03AFCA2BFEEC1700CAE7B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD03AFC92BFEEC1700CAE7B2 /* main.cpp */; };
+		BDBDD5F62C45173500945AFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDBDD5F52C45173500945AFE /* main.cpp */; };
 		BDF90EB22C378FCE002D83D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF90EB12C378FCE002D83D5 /* main.cpp */; };
 		BDF90EBD2C379F13002D83D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF90EBC2C379F13002D83D5 /* main.cpp */; };
 		BDF90EC82C3B9330002D83D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF90EC72C3B9330002D83D5 /* main.cpp */; };
@@ -18,6 +19,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		BD03AFC52BFEEC1700CAE7B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BDBDD5F12C45173500945AFE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -85,6 +95,8 @@
 /* Begin PBXFileReference section */
 		BD03AFC72BFEEC1700CAE7B2 /* 242 Is Anagram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "242 Is Anagram"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD03AFC92BFEEC1700CAE7B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BDBDD5F32C45173500945AFE /* 18 Four Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18 Four Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBDD5F52C45173500945AFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BDF90EAF2C378FCE002D83D5 /* 349 Intersection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "349 Intersection"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF90EB12C378FCE002D83D5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BDF90EBA2C379F13002D83D5 /* 202 Is Happy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "202 Is Happy"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +113,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		BD03AFC42BFEEC1700CAE7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBDD5F02C45173500945AFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -162,6 +181,7 @@
 				BDF90ED12C3D1227002D83D5 /* 454 Four Sum Count */,
 				BDF90EDC2C3E7D9E002D83D5 /* 383 Can Construct */,
 				BDF90EE72C40C518002D83D5 /* 15 Three Sum */,
+				BDBDD5F42C45173500945AFE /* 18 Four Sum */,
 				BD03AFBA2BFEE98600CAE7B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,6 +196,7 @@
 				BDF90ED02C3D1227002D83D5 /* 454 Four Sum Count */,
 				BDF90EDB2C3E7D9E002D83D5 /* 383 Can Construct */,
 				BDF90EE62C40C518002D83D5 /* 15 Three Sum */,
+				BDBDD5F32C45173500945AFE /* 18 Four Sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,6 +207,14 @@
 				BD03AFC92BFEEC1700CAE7B2 /* main.cpp */,
 			);
 			path = "242 Is Anagram";
+			sourceTree = "<group>";
+		};
+		BDBDD5F42C45173500945AFE /* 18 Four Sum */ = {
+			isa = PBXGroup;
+			children = (
+				BDBDD5F52C45173500945AFE /* main.cpp */,
+			);
+			path = "18 Four Sum";
 			sourceTree = "<group>";
 		};
 		BDF90EB02C378FCE002D83D5 /* 349 Intersection */ = {
@@ -254,6 +283,23 @@
 			name = "242 Is Anagram";
 			productName = "242 Is Anagram";
 			productReference = BD03AFC72BFEEC1700CAE7B2 /* 242 Is Anagram */;
+			productType = "com.apple.product-type.tool";
+		};
+		BDBDD5F22C45173500945AFE /* 18 Four Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBDD5F92C45173500945AFE /* Build configuration list for PBXNativeTarget "18 Four Sum" */;
+			buildPhases = (
+				BDBDD5EF2C45173500945AFE /* Sources */,
+				BDBDD5F02C45173500945AFE /* Frameworks */,
+				BDBDD5F12C45173500945AFE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "18 Four Sum";
+			productName = "18 Four Sum";
+			productReference = BDBDD5F32C45173500945AFE /* 18 Four Sum */;
 			productType = "com.apple.product-type.tool";
 		};
 		BDF90EAE2C378FCE002D83D5 /* 349 Intersection */ = {
@@ -370,6 +416,9 @@
 					BD03AFC62BFEEC1700CAE7B2 = {
 						CreatedOnToolsVersion = 15.3;
 					};
+					BDBDD5F22C45173500945AFE = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					BDF90EAE2C378FCE002D83D5 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -410,6 +459,7 @@
 				BDF90ECF2C3D1227002D83D5 /* 454 Four Sum Count */,
 				BDF90EDA2C3E7D9E002D83D5 /* 383 Can Construct */,
 				BDF90EE52C40C518002D83D5 /* 15 Three Sum */,
+				BDBDD5F22C45173500945AFE /* 18 Four Sum */,
 			);
 		};
 /* End PBXProject section */
@@ -420,6 +470,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD03AFCA2BFEEC1700CAE7B2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBDD5EF2C45173500945AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBDD5F62C45173500945AFE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +663,22 @@
 			};
 			name = Release;
 		};
+		BDBDD5F72C45173500945AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDBDD5F82C45173500945AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		BDF90EB32C378FCE002D83D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -718,6 +792,15 @@
 			buildConfigurations = (
 				BD03AFCC2BFEEC1700CAE7B2 /* Debug */,
 				BD03AFCD2BFEEC1700CAE7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBDD5F92C45173500945AFE /* Build configuration list for PBXNativeTarget "18 Four Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBDD5F72C45173500945AFE /* Debug */,
+				BDBDD5F82C45173500945AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
