@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:String/String.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:HashTable/HashTable.xcodeproj">
    </FileRef>
    <FileRef
